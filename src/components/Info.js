@@ -12,22 +12,22 @@ export default function Info() {
       <h1 className="info--name">Nick Mensah</h1>
       <h2 className="info--title">Java Engineer</h2>
       <h3 info--website>
-        <link to="https://nickmensahportfolio.com/">NickMensah.website</link>
+        <a href="https://nickmensahportfolio.com/">NickMensah.website</a>
       </h3>
 
       <div className="info--btn">
-      <link to="mailto:nick.d.mensah@gmail.com">
+      <a href="mailto:nick.d.mensah@gmail.com">
         <button className="info--btn--email  info--btn--btn" type="email">
           <img className="info--btn--email--icon icon" src={email} alt="" />
           Email
         </button>
-        </link>
-        <link to="https://www.linkedin.com/in/nicholas-d-mensah/">
+        </a>
+        <a href="https://www.linkedin.com/in/nicholas-d-mensah/">
         <button className="info--btn--linkedin info--btn--btn" >
            <img className="info--btn--linkedin--icon icon" src={linkedIn} alt="" />
            LinkedIn
         </button>
-        </link>  
+        </a>  
       </div>
       
     </div>

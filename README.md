@@ -12,25 +12,40 @@
 
 ## Overview
 
-<!-- TODO: Add a screenshot of the live project.
-    1. Link to a 'live demo.'
+<!-- TODO: Add a screenshot of the live project. -->
+    1. image.png
     2. I have gained the confidence to built components and containers to be rendered. I also practiced using react 17+ 
-    3. List a few specific technical things that you learned or improved on.
-    4. Share any other tips or guidance for others attempting this or something similar.
- -->
+       1. importing React and reactDOM
+       2. importing components
+       3. mounting components to be rendered 
+       4. how components allow for smoother app build
+   
+        
+ **important** try to understand that importing react allows the the components to utilize jsx, while importing reactDom allow the jsx to be rendered in the DOM after being converted to JS.
+
 
 ### Built With
 
-<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
+- REACT
+- reactDOM
+- createROOT
+- HTML
+- CSS
+- JSX
 
 ## Features
 
-<!-- TODO: List what specific 'user problems' that this application solves. -->
+This project allows business card to be accessible digitally
 
 ## Contact
+https://www.linkedin.com/in/nicholas-d-mensah/
 
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+https://github.com/mensahTribeWeb
+
+https://twitter.com/MensahTribeWDev
 
 ## Acknowledgements
 
-<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
+- Merit AMERICA Java Boot camp https://meritamerica.org/courses/java-development/
+- react docs https://create-react-app.dev/docs/documentation-intro
+- bob ziroll https://scrimba.com/learn/learnreact/get-a-code-review-cBwNn8u6

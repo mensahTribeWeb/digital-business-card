@@ -9,10 +9,10 @@ import './App.css';
 export default function App() {
   return (
     <div className="container App">
-      <About/>
-      <Footer/>
       <Info/>
+      <About/>
       <Interest/>
+      <Footer/>
     </div>
   );
 }

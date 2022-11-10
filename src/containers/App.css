@@ -5,8 +5,8 @@
 .App {
   text-align: center;
   width: 320px;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 0px auto;
+  margin-top: 200px;
   background-color: #1a1b31;
   border-radius: 10px;
   box-shadow: 1 1 1 35;
@@ -93,7 +93,7 @@ body{
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 1.4rem;
   text-align: left;
 }
 .footer {
