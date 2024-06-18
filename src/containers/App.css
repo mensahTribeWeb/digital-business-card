@@ -3,51 +3,62 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background: #23252C;
+  background: #23252c;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .App {
   text-align: center;
-  width: 320px;
-  margin-top: 50px;
+  width: 100%;
+  max-width: 320px; /* Adjusted max-width for smaller size */
+  margin: 20px auto; /* Centering and spacing */
   background-color: #1a1b31;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  color: #F5F5F5;
+  color: #f5f5f5;
+  overflow: hidden; /* Prevents vertical overflow */
+}
+
+.icon {
+  width: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 .info > img {
   width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit maximum height of the image */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-radius: 10px;
 }
 
 .info--name {
-  font-size: 25px;
+  font-size: 22px; /* Slightly smaller font size */
   margin: 10px 0 5px 0;
   font-weight: 700;
 }
 
 .info--title {
-  font-size: 15px;
+  font-size: 14px; /* Smaller font size for title */
   font-weight: 700;
-  color: #F3BF99;
+  color: #f3bf99;
   margin-bottom: 5px;
 }
 
 .info--website {
   font-size: 12px;
-  color: #F5F5F5;
+  color: #f5f5f5;
   margin-bottom: 10px;
 }
 
@@ -58,20 +69,20 @@ body {
 }
 
 .info--btn--btn {
-  width: 100px;
-  height: 35px;
+  width: 90px; /* Slightly reduced button width */
+  height: 30px; /* Reduced button height */
   border-radius: 6px;
   border: none;
-  background-color: #F3BF99;
+  background-color: #f3bf99;
   color: #1a1b31;
-  font-size: 14px;
+  font-size: 12px; /* Smaller font size */
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .info--btn--btn:hover {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   color: #1a1b31;
 }
 
@@ -82,10 +93,10 @@ body {
 
 .about--title,
 .interest--title {
-  font-size: 18px;
+  font-size: 16px; /* Smaller font size for section titles */
   font-weight: 700;
-  margin-bottom: 10px;
-  color: #F3BF99;
+  margin-bottom: 8px; /* Reduced margin bottom */
+  color: #f3bf99;
 }
 
 .interest--list {
@@ -94,25 +105,26 @@ body {
 }
 
 .interest--item {
-  font-size: 14px;
-  margin-bottom: 8px;
+  font-size: 12px; /* Smaller font size for list items */
+  margin-bottom: 6px; /* Reduced margin bottom */
 }
 
 .about--p,
 .interest--p {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 12px; /* Smaller font size for paragraph text */
+  line-height: 1.5;
 }
 
 .footer {
   margin-top: 20px;
   padding-top: 10px;
-  border-top: 1px solid #F3BF99;
+  border-top: 1px solid #f3bf99;
+  text-align: center; /* Center align text */
 }
 
 .footer--img {
-  width: 25px;
-  margin: 0 5px;
+  width: 20px; /* Slightly smaller image width */
+  margin: 0 3px; /* Reduced margin */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
