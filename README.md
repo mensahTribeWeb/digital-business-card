@@ -1,3 +1,5 @@
+![image](https://github.com/mensahTribeWeb/digital-buisness-card/assets/103342287/f3f7d1a2-2081-418b-b9a5-402b47b13f2f)
+
 # digital-business-card
 
 ## Table of Contents
