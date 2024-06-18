@@ -58,8 +58,15 @@ body {
 
 .info--website {
   font-size: 12px;
-  color: #f5f5f5;
+  color: #fff;
   margin-bottom: 10px;
+
+  padding: 5px; /* Add padding for better visibility */
+}
+
+.info--website:hover {
+  background-color: #1a1b31;
+  color: #f5f5f5;
 }
 
 .info--btn {
@@ -131,4 +138,7 @@ body {
 
 .footer--img:hover {
   transform: scale(1.2);
+}
+.App h1 {
+  color: white;
 }
