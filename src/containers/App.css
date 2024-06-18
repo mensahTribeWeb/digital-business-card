@@ -88,6 +88,16 @@ body {
   color: #F3BF99;
 }
 
+.interest--list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interest--item {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
 .about--p,
 .interest--p {
   font-size: 14px;
