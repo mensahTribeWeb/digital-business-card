@@ -1,120 +1,112 @@
-*{
+/* Reset and General Styles */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
+
+body {
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
   width: 320px;
-  margin: 0px auto;
-  margin-top: 200px;
+  margin-top: 50px;
   background-color: #1a1b31;
   border-radius: 10px;
-  box-shadow: 1 1 1 35;
-  border: 1px solid #F5F5F5;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #F5F5F5;
+}
 
-}
-body{
-  background: #23252C;
-}
 .info > img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  /* background-image: url(../img/nickMensah.png); */
-  width: 317px;
-  height: 317px;
   border-radius: 10px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
 }
+
 .info--name {
   font-size: 25px;
-  margin: 20px auto 3px auto;
+  margin: 10px 0 5px 0;
   font-weight: 700;
-  color:#F5F5F5;
-
 }
 
 .info--title {
   font-size: 15px;
   font-weight: 700;
   color: #F3BF99;
-  margin: 0;
+  margin-bottom: 5px;
 }
 
 .info--website {
-  font-size: 10.24px;
+  font-size: 12px;
   color: #F5F5F5;
-  margin: 8px auto;
-  font-weight: 400;
-  line-height: 15.36px;
+  margin-bottom: 10px;
 }
 
 .info--btn {
-  width: 250px;
-  margin: 15px auto;
-  height: 35px;
   display: flex;
-  justify-content: space-between;
-  border-radius: 6px;
+  justify-content: space-around;
+  margin-top: 10px;
 }
 
 .info--btn--btn {
-  width: 115px;
-  height: 100%;
+  width: 100px;
+  height: 35px;
   border-radius: 6px;
   border: none;
-  line-height: 35px;
-  padding: 0;
-  font-size: 15px;
+  background-color: #F3BF99;
+  color: #1a1b31;
+  font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.icon {
-  width: 17px;
-  border-radius: 6px;
-  vertical-align: middle;
-  margin: 0px 0px 4px 0px;
+.info--btn--btn:hover {
+  background-color: #F5F5F5;
+  color: #1a1b31;
 }
 
 .about,
-.interests{
-  width: 250px;
-  text-align: left;
-  margin: 0 auto;
-  color:#F5F5F5
+.interest {
+  margin-top: 20px;
+}
+
+.about--title,
+.interest--title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #F3BF99;
 }
 
 .about--p,
 .interest--p {
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.4rem;
-  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
 }
+
 .footer {
-  margin: 0px auto;
-  background-color: #161619;
-  height: 65px;
-  border-radius: 0 0 10px 10px;
-  width: 100%;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #F3BF99;
 }
 
 .footer--img {
-  margin: 19px 12px auto 12px;
-  width: 30px;
+  width: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-
-
-
-  
-
-
-
-
-
+.footer--img:hover {
+  transform: scale(1.2);
+}
