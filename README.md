@@ -1,48 +1,70 @@
 # digital-business-card
 
-## Table of Contents
-
-- [digital-business-card](#digital-business-card)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-    - [Built With](#built-with)
-  - [Features](#features)
-  - [Contact](#contact)
-  - [Acknowledgements](#acknowledgements)
+<p align="center">
+  <a href="https://mensahtribeweb.github.io/digital-business-card/">
+    <img src="https://github.com/mensahTribeWeb/digital-business-card/assets/103342287/88a11b4d-c281-4ca7-806b-6c6b71b62884" alt="Project Image">
+  </a>
+</p>
 
 ## Overview
 
-<!-- TODO: Add a screenshot of the live project. -->
-    1. image.png
-    2. I have gained the confidence to built components and containers to be rendered. I also practiced using react 17+ 
-       1. importing React and reactDOM
-       2. importing components
-       3. mounting components to be rendered 
-       4. how components allow for smoother app build
-   
-        
- **important** try to understand that importing react allows the the components to utilize jsx, while importing reactDom allow the jsx to be rendered in the DOM after being converted to JS.
-
+This project is a digital business card created with React, showcasing my skills in frontend development and UI design.
 
 ### Built With
 
-- REACT
-- reactDOM
-- createROOT
+- React
+- ReactDOM
 - HTML
 - CSS
 - JSX
 
 ## Features
 
-This project allows business card to be accessible digitally
+- Responsive design for accessibility across devices.
+- Easy-to-update information for seamless content management.
+- Modern UI components for enhanced user experience.
+
+## Demo
+
+Explore the project live: [Digital Business Card](https://mensahtribeweb.github.io/digital-business-card/)
+
+## Installation and Usage
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/mensahTribeWeb/digital-business-card.git
+```
+
+2. **Navigate into the project directory:**
+
+```bash
+cd digital-business-card
+```
+   
+3. **Install dependencies using npm:**
+
+```bash
+npm install
+```
+
+4. **Serve the project locally:**
+
+```bash
+npm start
+```
+
+
 
 ## Contact
-https://www.linkedin.com/in/nicholas-d-mensah/
 
-https://github.com/mensahTribeWeb
-
-https://twitter.com/MensahTribeWDev
+LinkedIn: [@Nicholas D. Mensah](https://www.linkedin.com/in/nicholas-d-mensah/)  
+Twitter: [@Nokoredev](https://twitter.com/MensahTribeWDev)  
+GitHub: [@mensahTribeWeb](https://github.com/mensahTribeWeb)  
+Website: [nokore.dev](https://nokore.dev)  
+Email: [nickmensah@nokore.dev](mailto:nickmensah@nokore.dev)
 
 ## Acknowledgements
 
