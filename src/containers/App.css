@@ -50,7 +50,7 @@ body {
 }
 
 .info--title {
-  font-size: 14px; /* Smaller font size for title */
+  font-size: 14px; 
   font-weight: 700;
   color: #f3bf99;
   margin-bottom: 5px;
